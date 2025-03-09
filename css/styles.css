@@ -23,6 +23,17 @@ h2 {
   color: #2e2f42;
 }
 
+.team-title,
+.portfolio-title,
+.features-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
 h3,
 p {
   letter-spacing: 0.02em;
@@ -52,8 +63,8 @@ p {
   font-family: "Raleway", sans-serif;
 }
 
-.logo-part {
-  color: #2e2f42;
+.footer-logo .logo-part {
+  color: #f4f4fd;
 }
 
 .nav-link {
@@ -111,6 +122,19 @@ p {
 
 .team-section {
   background-color: #f4f4fd;
+}
+
+.team-part {
+  background-color: #ffffff;
+}
+
+.team-part p {
+  font-size: 16px;
+}
+
+.team-title {
+  line-height: 1.11;
+  text-transform: capitalize;
 }
 
 .team-section h3,
