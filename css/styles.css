@@ -7,10 +7,13 @@ body {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 h2 {
@@ -20,7 +23,6 @@ h2 {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  text-transform: capitalize;
 }
 
 h3,
@@ -32,12 +34,14 @@ h3 {
   font-size: 20px;
   line-height: 1.2;
   font-weight: 500;
+  color: #2e2f42;
 }
 
 p {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
+  color: #434455;
 }
 
 .logo {
@@ -47,16 +51,6 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-}
-
-.header-logo .logo-part {
-  color: #2e2f42;
-  font-family: "Raleway", sans-serif;
-}
-
-.footer-logo .logo-part {
-  color: #f4f4fd;
-  font-family: "Raleway", sans-serif;
 }
 
 .nav-link {
@@ -87,6 +81,7 @@ p {
 
 .title {
   background-color: #2e2f42;
+  text-align: center;
 }
 
 .title-text {
@@ -94,7 +89,6 @@ p {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #fff;
 }
 
@@ -124,10 +118,8 @@ p {
 
 .page-footer {
   background-color: #2e2f42;
-}
-
-.page-footer p {
-  color: #f4f4fd;
+  text-align: center;
+  padding: 20px;
 }
 
 .footer-text {
