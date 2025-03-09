@@ -111,6 +111,10 @@ p {
   background-color: #404bbf;
 }
 
+.team-section {
+  background-color: #f4f4fd;
+}
+
 .team-section h3,
 .team-section p {
   text-align: center;
