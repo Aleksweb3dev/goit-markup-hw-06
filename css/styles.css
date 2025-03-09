@@ -24,14 +24,14 @@ h2 {
 }
 
 .team-title,
-.portfolio-title {
+.portfolio-title,
+.features-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  text-transform: capitalize;
 }
 
 h3,
@@ -64,7 +64,7 @@ p {
 }
 
 .logo-part {
-  color: inherit;
+  color: #2e2f42;
 }
 
 .footer-logo .logo-part {
@@ -133,15 +133,12 @@ p {
   background-color: #ffffff;
 }
 
-.team-title,
-.portfolio-title {
-  font-weight: 700;
-  font-size: 36px;
+.team-title {
+  line-height: 1.11;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-  text-transform: none;
 }
 
 .team-section h3,
@@ -153,26 +150,9 @@ p {
   color: #2e2f42;
 }
 
-.portfolio-title-banking,
-.portfolio-title-payment,
-.portfolio-title-meditation,
-.portfolio-title-taxi,
-.portfolio-title-illustrations,
-.portfolio-title-courses {
-  font-size: 20px;
-  font-weight: 500;
-  color: #2e2f42;
-}
-
-.portfolio-text-banking,
-.portfolio-text-payment,
-.portfolio-text-meditation,
-.portfolio-text-taxi,
-.portfolio-text-illustrations,
-.portfolio-text-courses {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #434455;
+.portfolio-title {
+  line-height: 1.11;
+  text-transform: capitalize;
 }
 
 .page-footer {
