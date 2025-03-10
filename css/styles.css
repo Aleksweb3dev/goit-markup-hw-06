@@ -135,6 +135,7 @@ p {
   text-align: center;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .team-item {
@@ -147,29 +148,8 @@ p {
   line-height: 1.11;
 }
 
-.portfolio-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-}
-
-.team-section h3,
 .team-section p {
   text-align: center;
-}
-
-.portfolio-section h3 {
-  color: #2e2f42;
-}
-
-.team-title .portfolio-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-  text-transform: capitalize;
 }
 
 .portfolio-title {
