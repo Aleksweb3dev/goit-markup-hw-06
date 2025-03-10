@@ -131,13 +131,11 @@ p {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
 }
 
 .title-button:hover,
 .title-button:focus {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #404bbf;
 }
 
@@ -168,10 +166,10 @@ p {
   color: #2e2f42;
 }
 
-.portfolio-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
+.team-title .portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
