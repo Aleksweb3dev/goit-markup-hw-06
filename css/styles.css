@@ -109,24 +109,20 @@ p {
 }
 
 .text-button {
-  font-size: 16px;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  cursor: pointer;
 }
 .title-button {
   background-color: #4d5ae5;
-  color: #ffffff;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-  line-height: 1.5;
 }
 
 .title-button:hover,
 .title-button:focus {
-  background: #404bbf;
+  background-color: #404bbf;
 }
 
 .team-section {
