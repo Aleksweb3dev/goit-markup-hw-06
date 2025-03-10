@@ -116,13 +116,24 @@ p {
   color: #fff;
 }
 .title-button {
-  background-color: #4d5ae5;
-  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+
+  width: 169px;
+  height: 56px;
+  padding: 16px 32px;
+
+  border-radius: 4px;
+  background: #4d5ae5;
+  color: #ffffff;
   font-weight: 500;
-  line-height: 1.5;
+  font-size: 16px;
   letter-spacing: 0.04em;
-  color: #fff;
   cursor: pointer;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .title-button:hover,
