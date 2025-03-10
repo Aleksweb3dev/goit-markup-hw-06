@@ -135,13 +135,24 @@ p {
   cursor: pointer;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   line-height: 1.5;
-  position: relative;
-  box-sizing: border-box;
 }
 
 .title-button:hover,
 .title-button:focus {
   background-color: #404bbf;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
+
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #404bbf;
 }
 
 .team-section {
