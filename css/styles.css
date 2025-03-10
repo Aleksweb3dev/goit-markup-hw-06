@@ -116,16 +116,6 @@ p {
   color: #fff;
 }
 .title-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  gap: 10px;
-
-  width: 169px;
-  height: 56px;
-  padding: 16px 32px;
-
   border-radius: 4px;
   background: #4d5ae5;
   color: #ffffff;
@@ -133,33 +123,11 @@ p {
   font-size: 16px;
   letter-spacing: 0.04em;
   cursor: pointer;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   line-height: 1.5;
-
-  position: relative;
-  left: auto;
-  top: auto;
-  box-sizing: border-box;
-  order: 0;
-  flex-grow: 0;
-  border-bottom: none;
 }
 
 .title-button:hover,
 .title-button:focus {
-  background-color: #404bbf;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 10px;
-
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #404bbf;
 }
 
