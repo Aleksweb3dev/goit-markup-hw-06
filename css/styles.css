@@ -135,6 +135,8 @@ p {
   cursor: pointer;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   line-height: 1.5;
+  position: relative;
+  box-sizing: border-box;
 }
 
 .title-button:hover,
