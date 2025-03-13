@@ -1,3 +1,11 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -7,6 +15,12 @@ body {
 ul,
 ol {
   list-style-type: none;
+}
+
+.button {
+  border: none;
+  background: none;
+  cursor: pointer;
 }
 
 a {
@@ -23,12 +37,17 @@ h2 {
   color: #2e2f42;
 }
 
-.features-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+.page-header {
+  max-width: 1440px;
+}
+
+.header-container {
+  max-width: calc(1128px + 15px * 2);
+  padding: 24px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
 }
 
 h3,
@@ -52,6 +71,8 @@ p {
 }
 
 .logo {
+  display: block;
+  padding: 15px 10px;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -59,6 +80,13 @@ p {
   text-transform: uppercase;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 76px;
 }
 
 .logo-part {
@@ -69,7 +97,14 @@ p {
   color: #f4f4fd;
 }
 
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
 .nav-link {
+  display: block;
+  padding: 15px 5px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -88,6 +123,11 @@ p {
   font-style: normal;
 }
 
+.contacts-list {
+  display: flex;
+  gap: 40px;
+}
+
 .contacts-link {
   font-size: 16px;
   line-height: 1.5;
@@ -96,16 +136,29 @@ p {
 }
 
 .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #2e2f42;
   text-align: center;
+  max-width: 1440px;
+}
+
+.title .title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 188px 472px;
 }
 
 .title-text {
+  text-align: center;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
+  max-width: 496px;
 }
 
 .text-button {
@@ -115,37 +168,110 @@ p {
   letter-spacing: 0.04em;
   color: #ffffff;
 }
-.title-button {
-  background-color: #4d5ae5;
-  color: #ffffff;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-  line-height: 1.5;
+
+.tittle-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
+  margin-top: 48px;
+
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
 }
 
-.title-button:hover,
-.title-button:focus {
+.tittle-button:hover,
+.tittle-button:focus {
   background: #404bbf;
+  cursor: pointer;
+}
+
+.section-container {
+  max-width: 1440px;
+}
+
+.feature-item {
+  width: 264px;
+}
+
+.item-text {
+  padding-bottom: 8px;
+}
+
+.features-container {
+  padding: 96px 15px 120px 15px;
+  max-width: calc(1128px + 15px * 2);
+  margin: 0 auto;
+}
+
+.features-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.features-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .team-section {
   background-color: #f4f4fd;
-  text-align: center;
-  color: #2e2f42;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
+  max-width: 1440px;
+}
+
+.team-part {
+  display: flex;
+  gap: 24px;
+  justify-content: space-around;
+  padding-bottom: 120px;
 }
 
 .team-item {
   background-color: #ffffff;
+  width: 264px;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  flex-direction: column;
+
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.team-container {
+  max-width: calc(1128px + 15px * 2);
+  margin: 0 auto;
+}
+
+.bio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 232px;
 }
 
 .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  padding-bottom: 72px;
+  padding-top: 120px;
+  text-align: center;
+  display: block;
 }
 
 .team-section p {
