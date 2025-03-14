@@ -33,10 +33,17 @@ ol {
 
 .button {
   border: none;
-  background: none;
   cursor: pointer;
   display: block;
   min-width: 169px;
+  align-items: center;
+  text-align: center;
+  margin-top: 48px;
+  border-radius: 4px;
+  padding: 16px 32px;
+
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
 }
 
 a {
@@ -183,22 +190,6 @@ p {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-}
-
-.tittle-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  gap: 10px;
-
-  border-radius: 4px;
-  width: 169px;
-  height: 56px;
-  margin-top: 48px;
-
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
 }
 
 .tittle-button:hover,
@@ -379,10 +370,10 @@ p {
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-container {
-  padding: 100px 0;
 }
 
 .footer-logo {
