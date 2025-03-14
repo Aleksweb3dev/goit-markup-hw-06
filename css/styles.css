@@ -198,21 +198,23 @@ p {
   cursor: pointer;
 }
 
+.section-container {
+  padding: 120px 0;
+}
+
 .feature-item {
-  width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 
 .item-text {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .features-container {
-  padding: 96px 0 120px;
 }
 
 .features-list {
   display: flex;
-  justify-content: space-between;
   gap: 24px;
 }
 
@@ -225,7 +227,7 @@ p {
   padding: 0;
 
   white-space: nowrap;
-  clip-path: inset(100%);
+  clip-path: none;
   clip: rect(0 0 0 0);
   overflow: hidden;
 
