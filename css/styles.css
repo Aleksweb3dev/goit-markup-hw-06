@@ -39,7 +39,8 @@ h2 {
   color: #2e2f42;
 }
 
-.page-header {
+img {
+  display: block;
 }
 
 .header-container {
@@ -73,7 +74,13 @@ p {
   color: #434455;
 }
 
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+  padding: 0 15px 0 15px;
+}
+
 .logo {
+  padding: 24px 0;
   display: block;
   font-weight: 700;
   font-size: 18px;
@@ -82,13 +89,13 @@ p {
   text-transform: uppercase;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
+  margin-right: 76px;
 }
 
 .header-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 76px;
 }
 
 .logo-part {
@@ -102,6 +109,10 @@ p {
 .nav-list {
   display: flex;
   gap: 40px;
+}
+
+.nav-item {
+  padding: 24px 0;
 }
 
 .nav-link {
@@ -191,9 +202,6 @@ p {
 .tittle-button:focus {
   background: #404bbf;
   cursor: pointer;
-}
-
-.section-container {
 }
 
 .feature-item {
@@ -336,9 +344,6 @@ p {
   row-gap: 48px;
 }
 
-.portfolio-item {
-}
-
 .bio-container {
   display: flex;
   align-items: center;
@@ -362,9 +367,6 @@ p {
   gap: 8px;
 }
 
-.portfolio-item img {
-}
-
 .portfolio-content {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
@@ -380,9 +382,6 @@ p {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
-}
-
-.portfolio-item-text {
 }
 
 .footer {
