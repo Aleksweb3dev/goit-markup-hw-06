@@ -12,6 +12,17 @@ body {
   background-color: #ffffff;
 }
 
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 ul,
 ol {
   list-style-type: none;
