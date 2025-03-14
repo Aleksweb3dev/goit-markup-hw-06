@@ -227,7 +227,7 @@ p {
   padding: 0;
 
   white-space: nowrap;
-  clip-path: none;
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 
@@ -241,13 +241,13 @@ p {
 
 .team-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-part {
   display: flex;
   gap: 24px;
   justify-content: center;
-  padding-bottom: 120px;
 }
 
 .team-item {
@@ -272,8 +272,8 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 32px 0;
   gap: 8px;
-  width: 232px;
 }
 
 .team-title {
@@ -284,10 +284,7 @@ p {
   padding-top: 120px;
   text-align: center;
   display: block;
-}
-
-.team-section p {
-  text-align: center;
+  margin-bottom: 8px;
 }
 
 .name-title {
@@ -328,15 +325,6 @@ p {
   justify-content: center;
   gap: 24px;
   row-gap: 48px;
-}
-
-.bio-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 8px;
-  width: 232px;
 }
 
 .footer-text-container {
