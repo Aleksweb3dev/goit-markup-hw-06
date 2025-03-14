@@ -225,18 +225,10 @@ p {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 72px;
 }
 
 .team-section {
@@ -300,7 +292,7 @@ p {
 
 .portfolio-section {
   background-color: #ffffff;
-  padding-top: 120px;
+  padding: 120px 0 120px 0;
 }
 
 .portfolio-container {
