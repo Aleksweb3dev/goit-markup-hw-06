@@ -273,18 +273,14 @@ p {
   flex-direction: column;
   align-items: center;
   padding: 32px 0;
-  gap: 8px;
 }
 
 .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  padding-bottom: 72px;
-  padding-top: 120px;
+  margin-bottom: 72px;
   text-align: center;
-  display: block;
-  margin-bottom: 8px;
 }
 
 .name-title {
@@ -295,6 +291,11 @@ p {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 8px;
+}
+
+.team-text {
+  text-align: center;
 }
 
 .portfolio-section {
