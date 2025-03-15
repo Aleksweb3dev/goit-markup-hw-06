@@ -163,6 +163,13 @@ p {
   text-align: center;
   margin: 0 auto;
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people_office.jpg);
+  background-repeat: no-repeat;
+  max-width: 1440px;
 }
 
 .title-container {
