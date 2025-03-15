@@ -122,9 +122,6 @@ p {
   gap: 40px;
 }
 
-.nav-item {
-}
-
 .nav-link {
   padding: 24px 0;
   display: block;
@@ -210,9 +207,6 @@ p {
   margin-bottom: 8px;
 }
 
-.features-container {
-}
-
 .features-list {
   display: flex;
   gap: 24px;
@@ -257,9 +251,6 @@ p {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.team-container {
-}
-
 .bio-container {
   display: flex;
   flex-direction: column;
@@ -293,9 +284,6 @@ p {
 .portfolio-section {
   background-color: #ffffff;
   padding: 120px 0 120px 0;
-}
-
-.portfolio-container {
 }
 
 .portfolio-title {
@@ -354,9 +342,6 @@ p {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
-}
-
-.footer-container {
 }
 
 .footer-logo {
