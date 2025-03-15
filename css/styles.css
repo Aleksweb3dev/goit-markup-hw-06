@@ -281,6 +281,36 @@ p {
   text-align: center;
 }
 
+.social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.social-icon {
+  width: 16px;
+  height: 16px;
+  fill: #f4f4fd;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4d5ae5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: #404bbf;
+  transform: scale(1.03);
+}
+
 .portfolio-section {
   background-color: #ffffff;
   padding: 120px 0 120px 0;
