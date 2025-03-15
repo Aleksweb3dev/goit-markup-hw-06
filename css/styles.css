@@ -46,6 +46,18 @@ ol {
   background: #4d5ae5;
 }
 
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
+
+a,
+button {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -123,6 +135,7 @@ p {
 }
 
 .nav-link {
+  position: relative;
   padding: 24px 0;
   display: block;
   font-weight: 500;
@@ -130,6 +143,17 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.nav-link.current::after {
+  content: "";
+  position: absolute;
+  border-radius: 2px;
+  left: 0px;
+  bottom: -1px;
+  width: 48px;
+  height: 4px;
+  background-color: #404bbf;
 }
 
 .nav-link:hover,
@@ -329,7 +353,6 @@ p {
 .social-link:hover,
 .social-link:focus {
   background-color: #404bbf;
-  transform: scale(1.03);
 }
 
 .portfolio-section {
@@ -358,6 +381,11 @@ p {
   gap: 24px;
   row-gap: 48px;
 }
+
+/* .portfolio-list .portfolio-item:nth-child(2) {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+} */
 
 .footer-text-container {
   border-bottom: 1px solid #e7e9fc;
