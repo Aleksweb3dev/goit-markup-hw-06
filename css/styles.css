@@ -462,6 +462,16 @@ p {
   padding: 100px 0;
 }
 
+.footer-container {
+  position: relative;
+}
+
+.footer-social-container {
+  position: absolute;
+  top: 0px;
+  left: 399px;
+}
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -470,4 +480,22 @@ p {
 .footer-text {
   width: 264px;
   color: #f4f4fd;
+}
+
+.social-title {
+  margin-bottom: 16px;
+  display: flex;
+  font-weight: 500;
+  color: #fff;
+}
+
+.footer .social-link:hover,
+.footer .social-link:focus {
+  background-color: #31d0aa;
+}
+
+.footer .social-list {
+  gap: 16px;
+  display: flex;
+  justify-content: flex-start;
 }
