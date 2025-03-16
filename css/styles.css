@@ -230,12 +230,20 @@ p {
   padding: 120px 0;
 }
 
+.features-container {
+}
+
 .feature-item {
   width: calc((100% - 72px) / 4);
 }
 
 .feature-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  height: 112px;
+  margin-bottom: 8px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   max-width: 264px;
@@ -243,8 +251,6 @@ p {
 }
 
 .feature-card-item {
-  width: 64px;
-  height: 64px;
   margin: 24px 0;
 }
 
