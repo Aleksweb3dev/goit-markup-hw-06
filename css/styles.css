@@ -397,9 +397,6 @@ p {
 .wraped-image {
   overflow: hidden;
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .footer-text-container,
@@ -453,6 +450,10 @@ p {
 .overlay-text {
   position: absolute;
   text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(100%);
   top: 0;
   left: 0;
   padding: 40px 32px;
