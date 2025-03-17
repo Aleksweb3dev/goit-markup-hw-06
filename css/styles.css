@@ -453,13 +453,12 @@ p {
 }
 
 .footer-container {
-  position: relative;
+  display: flex;
+  align-items: baseline;
 }
 
-.footer-social-container {
-  position: absolute;
-  top: 0px;
-  left: 399px;
+.footer-logo-container {
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -488,4 +487,9 @@ p {
   gap: 16px;
   display: flex;
   justify-content: flex-start;
+}
+
+.social-list-item {
+  width: 40px;
+  height: 40px;
 }
