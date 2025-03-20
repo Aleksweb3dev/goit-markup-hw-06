@@ -486,18 +486,58 @@ p {
 }
 
 .footer-subscribe {
+  margin-left: 80px;
 }
-.footer-text-second {
+.footer-text-subscribe {
+  letter-spacing: 0.02em;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 16px;
 }
 .footer-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 }
 .subscribe-form-label {
 }
 .footer-email {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+  padding: 8px 0 8px 16px;
+}
+
+.footer-email::placeholder {
+  color: #fff;
+  padding-left: 4px;
 }
 .button.footer-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
 }
-.footer-btn-svg {
+.footer-button {
+}
+.footer-button .text-button {
+  margin-right: 16px;
+}
+.footer-button-svg {
+  fill: #fff;
 }
 
 .backdrop {
@@ -516,9 +556,9 @@ p {
 }
 
 .backdrop.is-open {
-  opacity: 0;
+  opacity: 1;
   visibility: visible;
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 .modal {
